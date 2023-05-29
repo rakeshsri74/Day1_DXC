@@ -1,0 +1,20 @@
+What is Application?
+	
+What kind of application?
+
+CLI - Command Line Interface
+GUI - Graphical User Interface
+Web Application - 
+	-Static Web Page (Html)
+	-Dynamic Web Page (Servlet or JSP)
+Mobile Application - 
+
+Either we are using Servlet or JSP to make dynamic web pages.
+
+We require a server to be downloaded:
+	Tomcat
+	WebLogic
+	Wesphere
+	JBoss
+	etc.
+

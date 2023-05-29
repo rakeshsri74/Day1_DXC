@@ -1,0 +1,35 @@
+What is memory management in java?
+	class Employee{
+		int x;//instance varible
+	
+		public static void main(String[] args){
+		{
+			//Employee emp = new Employee();
+			Employee emp = null;
+			emp = new Employee();
+			emp.x = 12;
+			int a = 22;
+			System.out.println(a)
+		}
+	}
+Garbage collector:A daemon thread i.e. controlled by JVM.The responsibility of garbage collector is to allocate memory and deallocate memory dynamically.
+
+1.The Heap
+2.Object Allocation
+3.Garbage Collection
+
+Class Area or Method Area:
+
+Heap further devided into two areas:
+
+	Nursery(Young Space)
+		Eden memory
+		Survivour memory
+	Old Space
+
+---------------------------------------------------------------------------------
+
+Constructor 
+Destructor : finalize()
+
+	
